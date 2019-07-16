@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: royalblue;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -110,13 +110,17 @@ header .profile-image:hover {
 .experience{
   border: 3px solid #0399ff;
 }
-#heading{
+h2{
   text-align: center;
 }
 .leisure-img{
   width: 450px;
   opacity: .5;
   position: relative;
+}
+figcaption{
+  font-size: .73em;
+  color: palegreen;
 }
 
 ul.skills {
@@ -127,7 +131,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: royalblue;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -138,7 +142,7 @@ ul.skills {
   background: #0399ff;
 }
 ul.activities{
-  padding: .3;
+  padding: 1px;
   text-align: center;
 }
 .activities li{
