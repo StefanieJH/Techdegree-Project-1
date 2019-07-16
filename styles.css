@@ -107,8 +107,16 @@ header .profile-image:hover {
 .goals {
   border: 3px solid #ccc;
 }
+.experience{
+  border: 3px solid #0399ff;
+}
 #heading{
   text-align: center;
+}
+.leisure-img{
+  width: 450px;
+  opacity: .5;
+  position: relative;
 }
 
 ul.skills {
@@ -128,6 +136,19 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+ul.activities{
+  padding: .3;
+  text-align: center;
+}
+.activities li{
+  border-radius: 3px;
+  display: inline-flex;
+  background: palevioletred;
+  color: white;
+  padding: 3px 6px;
+  margin: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
