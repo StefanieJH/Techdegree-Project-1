@@ -57,7 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/new_background.jpg') no-repeat top center ;
+  background: url('images/new_background.jpg'); 
+  background-position: no-repeat top center;
   background-size: 100% 100%;
   overflow: hidden;
   padding-top: 60px;
@@ -239,6 +240,7 @@ a.social:hover {
     font-size: .75em;
     text-align: right;
     color: white;
+    padding: 5px;
     margin: 0 auto;
   }
 
