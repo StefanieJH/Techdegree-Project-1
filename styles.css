@@ -57,8 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/new_background.jpg'); 
-  background-position: no-repeat top center;
+  background: url('images/new_background.jpg') no-repeat top center; 
   background-size: 100% 100%;
   overflow: hidden;
   padding-top: 60px;
@@ -76,6 +75,17 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.1) rotate(3deg);
+}
+.headline {
+  background-color: #efefef;
+  opacity: 10px; 
+  color: black;
+  padding: 5px;
+  border-radius: 15px;
+  display: table;
+  margin:  10px auto;
+  text-align: center;
+  font-size: 30px;
 }
 .tag {
   background-color: #efefef;
@@ -108,8 +118,18 @@ header .profile-image:hover {
 .goals {
   border: 3px solid #ccc;
 }
-.experience{
+.education{
   border: 3px solid #0399ff;
+}
+.history{
+  border: 3px solid #0399ff;
+}
+.hobbies{
+  border: 3px solid #ccc;
+}
+.leisure{
+  border: 3px solid #ccc;
+  filter: blur('5px');
 }
 h2{
   text-align: center;
@@ -237,11 +257,11 @@ a.social:hover {
   }
 
   .caption {
-    font-size: .75em;
+    font-size: .50em;
     text-align: right;
-    color: white;
+    color: black;
     padding: 5px;
-    margin: 0 auto;
+    margin: 75px auto;
   }
 
 }
